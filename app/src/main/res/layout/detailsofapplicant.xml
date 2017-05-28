@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Purpose of loan:"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/TFpurpose" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="Total loan amount:"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TFpurpose"
+        android:layout_alignRight="@+id/TFpurpose"
+        android:layout_alignEnd="@+id/TFpurpose"
+        android:id="@+id/TFamount" />
+
+    <TextView
+        android:text="Permanent address:"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TFresidence"
+        android:layout_alignRight="@+id/TFresidence"
+        android:layout_alignEnd="@+id/TFresidence"
+        android:id="@+id/textView14" />
+
+    <TextView
+        android:text="Tenure of loan:"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TFtenure"
+        android:layout_below="@+id/TFamount"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Resident type:"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TFresidence"
+        android:layout_below="@+id/TFtenure"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/TFpurpose"
+        android:layout_toRightOf="@+id/TFpurpose"
+        android:layout_toEndOf="@+id/TFpurpose"
+        android:layout_marginLeft="58dp"
+        android:layout_marginStart="58dp"
+        android:id="@+id/textView15" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/TFamount"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView16" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/TFtenure"
+        android:layout_alignRight="@+id/textView16"
+        android:layout_alignEnd="@+id/textView16"
+        android:id="@+id/textView17" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView14"
+        android:layout_alignRight="@+id/textView17"
+        android:layout_alignEnd="@+id/textView17"
+        android:id="@+id/textView18" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_alignRight="@+id/textView18"
+        android:layout_alignEnd="@+id/textView18"
+        android:layout_marginBottom="13dp"
+        android:id="@+id/textView19" />
+</RelativeLayout>
