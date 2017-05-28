@@ -17,6 +17,7 @@
         </activity>
         <activity android:name=".Display"></activity>
         <activity android:name=".SignUp"></activity>
+        <activity android:name=".DetailsScreen"></activity>
     </application>
 
 </manifest>

@@ -45,7 +45,9 @@ public class SignUp extends Activity {
                 c.setPass(pass1Str);
 
                 helper.insertContact(c);
-                Intent i = new Intent(this, Display.class);
+                Intent i = new Intent(this, MainActivity.class);
+                i.putExtra("Name",nameStr);
+                i.putExtra("Email",emailStr);
                 startActivity(i);
             }
         }
